@@ -1,0 +1,33 @@
+var newDatepickerDate = new Date();
+
+jQuery(function($) {
+   $.datepicker.regional['zh-CN'] = {
+      changeMonth : true,
+      changeYear : true,
+      closeText : "清空",
+      currentText : "今天",
+      dateFormat : 'yy-mm-dd',
+      dayNames : [ '星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六' ],
+      dayNamesShort : [ '周日', '周一', '周二', '周三', '周四', '周五', '周六' ],
+      dayNamesMin : [ '日', '一', '二', '三', '四', '五', '六' ],
+      maxDate : 3653,
+      monthNames : [ '一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月',
+            '十月', '十一月', '十二月' ],
+      monthNamesShort : [ '一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月',
+            '九月', '十月', '十一月', '十二月' ],
+      numberOfMonths : 1,
+      nextText : "",
+      prevText : "",
+      selectOtherMonths : true,
+      showButtonPanel : true,
+      showMonthAfterYear : true,
+      showOtherMonths : true,
+      yearRange : "1900:" + newDatepickerDate.getFullYear() + 10,
+      beforeShow:function (input, inst) {datepicker_CurrentInput = input;}
+   };
+   $.datepicker.setDefaults($.datepicker.regional['zh-CN']);
+});
+
+$.datepicker._gotoToday = function (id) {
+   $(id).datepicker('setDate', new Date()).datepicker('hide').blur();
+};

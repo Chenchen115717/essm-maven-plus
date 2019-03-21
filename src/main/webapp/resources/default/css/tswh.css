@@ -1,0 +1,33 @@
+@charset "utf-8";
+.lbwh_left{float: left;width: 50%;padding:5px 10px;}
+.lbwh_left h3{margin:5px 10px;font-size: 14px;color: #555;}
+.lbwh_left .content{margin:5px 0px;}
+.lbwh_left .content em,.lbwh_left h3 em{color:#ff0000;font-weight: bolder;font-size: 18px;vertical-align: middle;padding-right:5px;}
+.lbwh_left .fmlabel{width: 180px;display: block;float: left;text-align: right;margin-right: 25px;}
+.lbwh_right .fmlabel{width: 110px;display: block;float: left;text-align: right;margin-right: 25px;}
+.lbwh_left .fminput,.lbwh_right .fminput{width: 100%;padding-left:180px; display: block;float: left;text-align: left;margin-left: 25px;}
+.lbwh_left .f_select{width: 205px;height: 28px;}
+.lbwh_left .f_text{width: 200px;}
+.lbwh_left .selected_file,.lbwh_right .selected_file{width: 200px;background:#efefef;padding:3px 5px 0;margin:0 20px 10px 0;float: left;display: block;}
+.lbwh_left .selected_file span,.lbwh_right .selected_file span{width:160px;	overflow: hidden;text-overflow:ellipsis;white-space: nowrap;display: inline-block;padding-top:5px;}
+.lbwh_left .selected_file .del,.lbwh_right .selected_file .del{padding:3px 10px;display: block;float: right;}
+.lbwh_left .formbox,.lbwh_right .formbox{margin-top: 10px;}
+.lbwh_left .formbox .multisign{font-size:18px;color:#000;}
+.lbwh_left .title,.lbwh_right .title{border-bottom: 1px solid #ccc;padding:0 0 3px 15px;width: 90%;}
+.lbwh_right{padding:5px 10px;}
+#baseInfoForm i{color:#ff0000;padding-left:5px;}
+.mt30{margin-top: 30px;}
+.ml80{margin-left: 80px;}
+
+/* 上传进度条 */
+.progressWarp{ display:none; z-index:1002; width: 40%; height: 80px; background: #efefef;position: fixed;top: 0px;left: 0px;right: 0px;bottom: 0px;margin: auto;}
+#progress{width: 0%; height: 10px; background: #16A05D;	}
+#progressLabel,#progressValue{text-align: center;width: 100%;height: 40px;background: #efefef;text-align: center;line-height: 40px;font-size: 18px;font-weight: bold;}
+#closeprogress{padding:5px 10px;float: right;color: #000;}
+#coverbg{ display: none;position: absolute; top: 0%; left: 0%; width: 100%;  height: 100%; background-color: black; z-index:1001; -moz-opacity: 0.3; opacity:.30; filter: alpha(opacity=30);}
+
+.warp_speakerInfo{background: #efefef;width:650px;padding:5px 0px 10px;}
+.warp_speakerInfo a{float:right;padding-right: 10px;font-size: 20px;font-weight:bold;}
+
+
+

@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/*pagenav-02样式2——强显示*/
+.pagenav-02 span, .pagenav-02 a:link, .pagenav-02 a:visited {
+	margin:0 5px;
+    line-height:40px;
+    text-align:center;
+    text-decoration:none;
+    -moz-border-radius:38px;
+    border-radius:38px;
+    min-height:40px;
+    min-width:42px;
+    color:#858585;
+    border:2px #e3e3e3 solid;
+    font-size:14px;
+    display:inline-block;
+}
+
+.pagenav-02 a:hover, .pagenav-02 a:active {
+	background-color: #fff;
+	border-color: #2a68bc;
+}
+
+.pagenav-02 .active {
+	margin: 0 5px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    -moz-border-radius: 38px;
+    border-radius: 38px;
+    font-weight: 700;
+    min-height: 40px;
+    min-width: 42px;
+    color: #262626;
+    border: 2px #119eda solid;
+    font-size: 14px;
+    color: #119eda;
+    display: inline-block;
+}
+
+.pagenav-02 .page-prev.disable:link, .pagenav-02 .page-next.disable:visited,
+	.pagenav-02 .page-next.disable:hover, .pagenav-02 .page-next.disable:active
+	{
+	border: none;
+}
+
+.pagenav-02 span.total {
+    border: 0 none;
+    margin: 0 0 0 50px;
+    width:250px;
+}
+.pagenav-02 .total-font{
+	font-weight: bold;
+	color: #ff0000;
+}
