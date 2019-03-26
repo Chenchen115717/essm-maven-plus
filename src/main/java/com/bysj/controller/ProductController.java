@@ -17,7 +17,7 @@ import com.bysj.service.CommonService;
 import com.bysj.service.ProductService;
 import com.github.pagehelper.PageInfo;
 
-//商品管理类
+//视频管理类
 @RequestMapping("/client")
 @Controller
 public class ProductController extends ClientBaseController {

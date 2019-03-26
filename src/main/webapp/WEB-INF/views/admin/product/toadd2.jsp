@@ -29,7 +29,7 @@
 			
 			<div style="clear: both;"></div>
 			<div class="tc mt30" style="float:left;margin-left: 150px;">
-				<a href="javascript:void()" id="btnSave" onclick="doSubmit()" class="btn btn-m btn-prim-g btn-submit">上传</a>
+				<a href="javascript:void(0)" id="btnSave" onclick="doSubmit()" class="btn btn-m btn-prim-g btn-submit">上传</a>
 			</div>
 		</div>
 	</div>
@@ -40,7 +40,7 @@
     <a href="javascript:void(0)" onclick="closeWarp()" class="progressing-close" style="top:0px;">X</a>
   </div>
   <div id="progressBarTip" class="progressbar progressbar2 progressing-title">
-    严禁上传、传播暴力恐吓、色情违法及侵犯他人合法权益的违发行为，一经发现将严格按照相关法律解决
+    严禁上传、传播暴力恐吓、色情违法及侵犯他人合法权益的违法行为，一经发现将严格按照相关法律解决
   </div>
   
   
@@ -66,11 +66,11 @@
     //warpId:选择之后显示在哪里
     //max:最多可以上传几个文件
 	function selectMultifile(obj,type,warpId,max){
-    	let files = obj.files
+    	let files = obj.files;
     	for (let k = 0, len = files.length; k < len; k++) {
-    		let file = files[k]
+    		let file = files[k];
             var filename = file.name.replace(/.*(\/|\\)/, "");
-            console.log(filename)
+            console.log(filename);
     		var fileExt = (/[.]/.exec(filename)) ? /[^.]+$/.exec(filename.toLowerCase()) : "";
             var accept = $(obj).attr('accept');
             if (accept != "" && accept.indexOf(fileExt) == -1) {
@@ -90,7 +90,7 @@
 			}
             var fileid = new Date().getTime();
             var saveFileName = new Date().getTime() + "_"+ i + "_" + Math.round(Math.random()*9999+1000) +"."+ fileExt;
-            convertArray.push(saveFileName)
+            convertArray.push(saveFileName);
             var kv = { filename: filename,saveFileName:saveFileName,fileExt:fileExt, fileid: fileid, value: file };
             fileArray[type].push(kv);
             

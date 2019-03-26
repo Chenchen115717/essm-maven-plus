@@ -60,25 +60,26 @@
 	   <c:if test="${user.usertype =='管理员'}">
 		<h3 class="menu_head current">系统管理</h3>
 		<div style="" class="menu_body">
+			<!--essm 是封装的一个类 方法执行为ajax请求；
+			    href=”javascript:void(0);”这个的含义是，让超链接去执行一个js函数，而不是去跳转到一个地址，
+               而void(0)表示一个空的方法，也就是不执行js函数。-->
 			<a onclick="essm.load('${ctx}/admin/user/index')" href="javascript:void(0);">账号管理</a>
 			<a onclick="essm.load('${ctx}/admin/user/toadd')" href="javascript:void(0);">添加账号</a>
 		</div>
-		
-		<h3 class="menu_head">用户管理</h3>
-		<div style="display:none" class="menu_body">
-			<a onclick="essm.load('${ctx}/admin/user/indexregister')" href="javascript:void(0);">用户管理</a>
-		</div>
+		   <h3 class="menu_head">视频管理</h3>
+		   <div style="display:none" class="menu_body">
+			   <a onclick="essm.load('${ctx}/admin/product/index')" href="javascript:void(0);">视频管理</a>
+		   </div>
 		</c:if>
-		
-		<h3 class="menu_head">视频管理</h3>
-		<div style="display:none" class="menu_body">
-			<a onclick="essm.load('${ctx}/admin/product/index')" href="javascript:void(0);">视频管理</a>
-			<a onclick="essm.load('${ctx}/admin/product/toadd2')" href="javascript:void(0);">上传视频</a>
-		</div>
+
+		   <h3 class="menu_head">视频上传</h3>
+		   <div style="display:none" class="menu_body">
+			   <a onclick="essm.load('${ctx}/admin/product/toadd2')" href="javascript:void(0);">上传视频</a>
+		   </div>
 		
 	   
        <c:if test="${user.usertype =='普通用户'}">
-		
+
 	   </c:if>
 		<h3 class="menu_head">个人信息</h3>
 		<div style="display:none" class="menu_body">

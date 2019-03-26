@@ -13,7 +13,7 @@
 <body class="login_body" style="background:url(${ctx}/resources/default/images/login.jpg);background-size:cover;">
 	<div class="logo" id="status_of_notlogin">
 		<div class="logoName">
-			<div class="logoTitle">${SYS_NAME }</div>
+			<div class="logoTitle"  >${SYS_NAME }</div>
 		</div>
 	</div>
 	<div class="logon" style="height:250px;/* box-shadow:10px 5px 50px #16A05D; */">

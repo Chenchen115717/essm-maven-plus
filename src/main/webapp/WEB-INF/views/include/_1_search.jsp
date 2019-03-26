@@ -5,7 +5,7 @@
     <div class="zw-home-header-wrap">
         <div class="zw-home-header-logo" style="padding-top: 35px;">
             <a data-bn-ipg="zw-logo" href="${ctx }">
-                <span class="title">
+                <span class="title" href="/index.shtml">
                     ${SYS_NAME }
                 </span>
             </a>
@@ -22,6 +22,7 @@
                 <input type="text" id="titlexxx" name="titlexxx" placeholder="输入搜索词" autocomplete="off" class="zw-home-header-search-text" id="zwhomeSearchText">
                 <p class="zw-home-header-search-gap"></p>
                 <input type="submit"  value="搜索" class="zw-home-header-search-submit" data-bn-ipg="zsj-search">
+                <a style="font-size: large" href="/index.shtml">返回首页</a>
             </form>
         </div>
     </div>

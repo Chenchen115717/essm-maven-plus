@@ -214,7 +214,7 @@ public class SysUserController {
 		map.put("pageSize", pageSize);
 		map.put("itemTotal", list.getTotal());
 		map.put("number", (pageIndex == 0 ? pageIndex : pageIndex - 1) * pageSize);
-
+		System.out.println("---------------------------"+list);
 		return "/admin/user/getdataregister";
 	}
 

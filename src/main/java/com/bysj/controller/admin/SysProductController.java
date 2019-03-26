@@ -128,7 +128,7 @@ public class SysProductController {
 			map.put("bean", bean);
 		}
 	}
-
+	//删除
 	@ResponseBody
 	@RequestMapping(value = "/admin/product/delete", method = RequestMethod.POST)
 	public MsgHelper delete(Integer id) {
