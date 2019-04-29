@@ -90,7 +90,7 @@
 	   
 	   <div class="sz_right">
 	     <div class="right_content" id="sz_right">
-	    	欢迎访问
+	    	欢迎访问！
 	   	 </div>
 	   </div>
 	</div>

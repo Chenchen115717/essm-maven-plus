@@ -7,6 +7,7 @@
             <a data-bn-ipg="zw-logo" href="${ctx }">
                 <span class="title" href="/index.shtml">
                     ${SYS_NAME }
+                     <div  class="zw-footer-listlinks">Designed By Chen Chen,Xiaohu Zhao(毕设作品，侵删！)</div>
                 </span>
             </a>
         </div>
@@ -19,10 +20,9 @@
         </div> --%>
         <div class="zw-home-header-search" id="zwhomeSearchs">
             <form action="${ctx }/client/product/index" method="post">
-                <input type="text" id="titlexxx" name="titlexxx" placeholder="输入搜索词" autocomplete="off" class="zw-home-header-search-text" id="zwhomeSearchText">
+                <input type="text" id="titlexxx" name="titlexxx" placeholder="输入感兴趣的视频名称" autocomplete="off" class="zw-home-header-search-text" id="zwhomeSearchText">
                 <p class="zw-home-header-search-gap"></p>
                 <input type="submit"  value="搜索" class="zw-home-header-search-submit" data-bn-ipg="zsj-search">
-                <a style="font-size: large" href="/index.shtml">返回首页</a>
             </form>
         </div>
     </div>

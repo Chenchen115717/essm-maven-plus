@@ -11,7 +11,7 @@
                 <a class="item" href="javascript:void(0)">投诉建议</a><span class="separator">|</span>
                 <a class="item" href="${ctx }/admin/login" target="_blank" style="color: #ff0;">后台登录</a>
             </div>
-            <div class="zw-footer-listlinks">All rights reserved. Version v1.0.0</div>
+            <div  class="zw-footer-listlinks">Designed By Chen Chen,Xiaohu Zhao. Version v1.0.0</div>
         </div>
     </div>
 </div>
