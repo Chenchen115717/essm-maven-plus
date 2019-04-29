@@ -12,7 +12,6 @@
 			<th>昵称</th>
 			<th>角色</th>
 			<th>性别</th>
-			<th>生日</th>
 			<th>邮箱</th>
 			<th>手机号</th>
 			<th>QQ号</th>
@@ -33,7 +32,6 @@
 				<td>${o.nickname }</td>
 				<td>${o.usertype }</td>
 				<td>${o.sex }</td>
-				<td>${o.birthday }</td>
 				<td>${o.email }</td>
 				<td>${o.phone }</td>
 				<td>${o.qq }</td>

@@ -152,7 +152,7 @@ public class SysProductController {
 			HttpSession session) throws IOException {
 		User user = (User) session.getAttribute("user");
 		String attachPath = UPLOAD_URL;
-		File file1 = new File(attachPath);
+		File file1 = new File(attachPath);//D:uploadFiles
 		if (!file1.exists()) {
 			file1.mkdirs();
 		}
@@ -287,7 +287,7 @@ public class SysProductController {
 	}
 
 	/**
-	 * AVI格式转化
+	 * 将不同的视频格式转换为flv格式
 	 * @param request
 	 * @param response
 	 * @param productId
@@ -302,7 +302,7 @@ public class SysProductController {
 		Map<String, Object> message = new HashMap<>();
 		String[] productIds = productId.split(";");
 		for (String string : productIds) {
-			if (string.toLowerCase().indexOf("avi") == -1) {
+			if (string.toLowerCase().indexOf("flv") != -1) {
 				continue;
 			}
 			String ffmpegPath = session.getServletContext().getRealPath("/resources/ffmpeg/ffmpeg.exe");

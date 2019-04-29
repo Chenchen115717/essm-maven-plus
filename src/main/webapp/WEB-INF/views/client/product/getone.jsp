@@ -4,7 +4,7 @@
 <head>
 <title>${dictionary.SYS_NAME }</title>
 <%@ include file="/WEB-INF/views/include/resources.jsp"%>
-<script type="text/javascript" src="${ctx}/resources/ckplayer/ckplayer.js" charset="utf-8"></script>
+<script type="text/javascript" src="${ctx}/resources/ckplayer/ckplayer.js" charset="gbk"></script>
 <style type="text/css">
 	.title{font-size:20px;font-weight: bold;}
 	.price {font-size:14px;color: #959595;}

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * HTML 5 media compatibility layer.
  * 
  * Copyright 2010 Dave Hall <dave@etianen.com>.

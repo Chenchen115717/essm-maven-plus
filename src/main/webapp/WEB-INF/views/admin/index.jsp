@@ -77,7 +77,7 @@
 			   <a onclick="essm.load('${ctx}/admin/product/toadd2')" href="javascript:void(0);">上传视频</a>
 		   </div>
 		
-	   
+
        <c:if test="${user.usertype =='普通用户'}">
 
 	   </c:if>

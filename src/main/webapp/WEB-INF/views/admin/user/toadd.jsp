@@ -63,15 +63,6 @@
 		
 		<div class="f-gp">
 			<div class="f-lb">
-				<label class="f-label">生日：</label>
-			</div>
-			<div class="f-ct">
-				<form:input  path="birthday" type="date" required="true" class="f-text span4"/>
-			</div>
-		</div>
-		
-		<div class="f-gp">
-			<div class="f-lb">
 				<label class="f-label">邮箱：</label>
 			</div>
 			<div class="f-ct">

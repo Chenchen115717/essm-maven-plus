@@ -77,7 +77,7 @@ public class AccountController {
 	@RequestMapping("/register")
 	public MsgHelper register(HttpServletRequest request, HttpSession session,
 			@RequestParam(value = "file", required = false) MultipartFile file, User bean) throws Exception {
-		MsgHelper msgHelper = new MsgHelper("恭喜您注册成功，系统已自动登录！");
+		MsgHelper msgHelper = new MsgHelper("恭喜您注册成功！");
 		if (StringUtils.isEmpty(bean.getUsername())) {
 			msgHelper.setCode(-100);
 			msgHelper.setMessage("用户名不能为空！");
@@ -96,7 +96,7 @@ public class AccountController {
 				bean.setImagepath(fileName);
 				file.transferTo(new File(savePath));
 			}
-			bean.setItem1("1");
+			bean.setItem1("0");
 			bean.setStatus("正常");
 			bean.setCreatedate(CommonUtils.getNowDateTime());
 			userService.insert(bean);

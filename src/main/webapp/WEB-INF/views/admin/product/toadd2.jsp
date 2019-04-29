@@ -19,7 +19,7 @@
 				<div class="formbox">
 					<span class="fmlabel">视频</span>
 					<span>
-						<input type="file" multiple="multiple" id="file_video" onchange="selectMultifile(this,'video','file_video_list',-1)" accept=".mp4;.flv;.avi"/>（支持.mp4;.flv;.avi）
+						<input type="file" multiple="multiple" id="file_video" onchange="selectMultifile(this,'video','file_video_list',-1)" accept=".mp4;.flv;.avi"/>（	仅支持.mp4;.flv;.avi格式的视频）
 					</span>
 			    </div>
 			    <div class="formbox ml80" id="file_video_list">
@@ -49,8 +49,8 @@
 	let max = 5;
 	//选择
 	var fileArray = {"video":[]};
-	var cancelArray = []
-	var convertArray = []
+	var cancelArray = [];
+	var convertArray = [];
 	//清空已选择文件以及表单
 	function clearFiles(){
 		$("#file_video_list").html("");
