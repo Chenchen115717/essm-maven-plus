@@ -4,6 +4,10 @@
       <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/essm-tools-1.0.0.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Desktop/jad158g.win.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/essm-tools-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/essm-tools-1.0.0.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -35,7 +35,7 @@
 					</div>
 					<div class="login_group">
 						<div class="title">确认密码：</div>
-						<div class="control"><input type="password" name="repassword" placeholder="请输入密码" required="required" ></div>
+						<div class="control"><input type="password" name="repassword" placeholder="请再次输入密码" required="required" ></div>
 					</div>
 					<div class="login_group">
 						<div class="title">姓名：</div>
@@ -43,7 +43,7 @@
 					</div>
 					<div class="login_group">
 						<div class="title">昵称：</div>
-						<div class="control"><input type="text" name="nickname" placeholder="请输入昵称" required="required" ></div>
+						<div class="control"><input type="text" name="nickname" placeholder="请输入昵称"  ></div>
 					</div>
 					<div class="login_group">
 						<div class="title">邮箱：</div>
@@ -51,15 +51,15 @@
 					</div>
 					<div class="login_group">
 						<div class="title">QQ：</div>
-						<div class="control"><input type="text" name="qq" placeholder="请输入QQ" required="required" ></div>
+						<div class="control"><input type="text" name="qq" placeholder="请输入QQ"  ></div>
 					</div>
 					<div class="login_group">
 						<div class="title">微信：</div>
-						<div class="control"><input type="text" name="weixin" placeholder="请输入微信" required="required" ></div>
+						<div class="control"><input type="text" name="weixin" placeholder="请输入微信"  ></div>
 					</div>
 					<div class="login_group">
 						<div class="title">IDCARD：</div>
-						<div class="control"><input type="text" name="idcard" placeholder="请输入IDCARD" required="required" ></div>
+						<div class="control"><input type="text" name="idcard" placeholder="请输入IDCARD"  ></div>
 					</div>
 					<div class="login_group">
 						<div class="title">手机号：</div>

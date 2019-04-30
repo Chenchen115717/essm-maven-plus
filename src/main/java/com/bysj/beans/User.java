@@ -11,7 +11,7 @@ import com.baomidou.mybatisplus.enums.IdType;
  * 
  * </p>
  *
- * @author 浪子
+ *
  * 
  */
 @TableName("t_user")
