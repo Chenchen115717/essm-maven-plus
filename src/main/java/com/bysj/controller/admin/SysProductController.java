@@ -287,7 +287,7 @@ public class SysProductController {
 	}
 
 	/**
-	 * 将不同的视频格式转换为flv格式
+	 * 将不同的视频格式转换为flv格式的视频
 	 * @param request
 	 * @param response
 	 * @param productId
